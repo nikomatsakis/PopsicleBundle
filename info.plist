@@ -4,6 +4,13 @@
 <dict>
 	<key>name</key>
 	<string>Popsicle</string>
+	<key>ordering</key>
+	<array>
+		<string>868C61F1-C905-40D6-8DC3-78C495C52725</string>
+		<string>755BC80D-F871-4198-BB1C-DA0466236AD9</string>
+		<string>30B21DDB-EB3C-4FBD-A044-D97CBC67808F</string>
+		<string>6CC82987-3511-4795-8023-60521B1A1986</string>
+	</array>
 	<key>uuid</key>
 	<string>42B6F57F-FAC6-4EFC-AD96-7B43121B449B</string>
 </dict>

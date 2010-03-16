@@ -32,7 +32,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^([\w-])+:\s*$</string>
+			<string>^([\w-]+):\s*$</string>
 			<key>name</key>
 			<string>entity.typerule.popsicle</string>
 		</dict>

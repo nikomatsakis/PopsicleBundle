@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List: Type Rule</string>
+	<key>scope</key>
+	<string>entity.typerule.popsicle</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>s/^(.)/    $1/g</string>
+	</dict>
+	<key>uuid</key>
+	<string>6CC82987-3511-4795-8023-60521B1A1986</string>
+</dict>
+</plist>
