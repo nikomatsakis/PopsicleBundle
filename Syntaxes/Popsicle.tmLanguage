@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>pop</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>^#!.*\bpopsicle\b</string>
+	<key>name</key>
+	<string>Popsicle</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^#.*$</string>
+			<key>name</key>
+			<string>comment.line.number-sign.popsicle</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\[(.*)\]\s*$</string>
+			<key>name</key>
+			<string>entity.section.popsicle</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\[(.*)\]\s*$</string>
+			<key>name</key>
+			<string>entity.directive.popsicle</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^([\w-])+:\s*$</string>
+			<key>name</key>
+			<string>entity.typerule.popsicle</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.popsicle</string>
+	<key>uuid</key>
+	<string>868C61F1-C905-40D6-8DC3-78C495C52725</string>
+</dict>
+</plist>

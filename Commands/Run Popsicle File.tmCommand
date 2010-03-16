@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string># just to remind you of some useful environment variables
+# see Help / Environment Variables for the full list
+
+echo "&lt;html&gt;"
+echo "&lt;body&gt;"
+echo "&lt;b&gt;Executing $(basename $TM_FILEPATH):&lt;/b&gt;"
+cd "$(dirname '$TM_FILEPATH')"
+$TM_FILEPATH 2&gt;&amp;1 | pre
+echo "Exit code: $?"
+echo "&lt;/body&gt;"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Run Popsicle File</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.popsicle</string>
+	<key>uuid</key>
+	<string>755BC80D-F871-4198-BB1C-DA0466236AD9</string>
+</dict>
+</plist>
